@@ -198,7 +198,7 @@
     "redux-logger": "3.0.6",
     "redux-saga": "0.15.6",
     "serialize-javascript": "1.4.0",
-    "stylefmt": "6.0.0",
+    "stylefmt": "6.0.1",
     "ua-parser-js": "0.7.14",
     "url": "0.11.0",
     "url-loader": "0.6.0",
