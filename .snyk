@@ -1,0 +1,71 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - stylefmt > stylelint > debug:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint-order > stylelint > debug:
+        patched: '2022-10-07T21:39:08.027Z'
+  'npm:extend:20180424':
+    - jsdom > request > extend:
+        patched: '2022-10-07T21:39:08.027Z'
+  'npm:hoek:20180212':
+    - jsdom > request > hawk > hoek:
+        patched: '2022-10-07T21:39:08.027Z'
+    - jsdom > request > hawk > boom > hoek:
+        patched: '2022-10-07T21:39:08.027Z'
+    - jsdom > request > hawk > sntp > hoek:
+        patched: '2022-10-07T21:39:08.027Z'
+    - jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-07T21:39:08.027Z'
+  SNYK-JS-LODASH-567746:
+    - react-redux > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - redux > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - extract-text-webpack-plugin > async > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - redux-connect > redux-actions > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > postcss-sorting > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint-order > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint > doiuse > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint > postcss-reporter > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint > table > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint-order > stylelint > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint > colorguard > postcss-reporter > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint > stylehacks > postcss-reporter > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint-order > stylelint > doiuse > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint-order > stylelint > postcss-reporter > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint-order > stylelint > table > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint-order > stylelint > colorguard > postcss-reporter > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+    - stylefmt > stylelint-order > stylelint > stylehacks > postcss-reporter > lodash:
+        patched: '2022-10-07T21:39:08.027Z'
+  'npm:stringstream:20180511':
+    - jsdom > request > stringstream:
+        patched: '2022-10-07T21:39:08.027Z'
+  'npm:tough-cookie:20170905':
+    - jsdom > tough-cookie:
+        patched: '2022-10-07T21:39:08.027Z'
+    - jsdom > request > tough-cookie:
+        patched: '2022-10-07T21:39:08.027Z'
+    - jsdom > request-promise-native > tough-cookie:
+        patched: '2022-10-07T21:39:08.027Z'
